@@ -1,385 +1,148 @@
-<!DOCTYPE HTML>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!doctype html>
+<html>
   <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106798280-2"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-106798280-2');
-    </script>
-
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width">
-    <title>Walter Schulze</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Droid+Sans+Mono" rel="stylesheet" type="text/css"/>
+    <meta charset="utf-8">
+    <title>awalterschulze</title>
     <link rel="shortcut icon" href="favicon.ico"/>
-    <style type="text/css">
-    #sig {
-      color: #aaa;
-      font-family: "Courier New";
-      font-weight: bold;
-      background-color: #fff;
-    }
-    .white{
-      background-color: #fff;
-    }
-    </style>
-    <script src="https://awalterschulze.github.io/music/audiojs/audio.min.js"></script>
-    <style type="text/css">
-      .audiojs .play-pause {
-        width: 40px;
+
+    <!-- github style -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <meta name="color-scheme" content="light dark">
+    <link rel="stylesheet" href="github-markdown.css">
+    <style>
+      body {
+        box-sizing: border-box;
+        min-width: 200px;
+        max-width: 980px;
+        margin: 0 auto;
+        padding: 45px;
+      }
+      @media(prefers-color-scheme: dark) {
+        body {
+          background-color: #0d1117;
+        }
       }
     </style>
-    <script>
-      audiojs.events.ready(function() {
-        audiojs.createAll();
-      });
-    </script>
   </head>
   <body>
-    <div class="container">
-    <div class="row">
-      <div class="col-md-12 text-center">
-<!-- copied from http://patorjk.com/software/taag/#p=testall&h=1&f=Modular&t=Walter
-and modified -->
-            <pre class="hidden-xs" id="sig">
- █     █░ ▄▄▄       ██░  ████████░▒█████  ██▀███
-░█░ █ ░█░▒████▄    ░██▒  ░  ██▒ ░▒░█   ▀ ▒██ ▒ █░▒
-▒█░ █ ░█ ▒██  ▀█▄  ▒██░  ▒ ▒██░ ▒░▒███   ░██ ░▄█ ▒
-░█░ █ ░█ ░██▄▄▄▄█▒ ▒██░  ░ ░██▒ ░ ▒▓█  ▄ ▒██▀▀█▄
-░░██▒██░  █▓   ▓█░▒░██████▒▒██▒ ░ ░█████▒░██▒ ▒█░▒
-░ ▓░▒ ▒   ▒▒   ▒▒░░░ ▒░▒  ░▒ ░░   ░░ ▒░ ░░ ▒░ ░▒▒░
-  ▒ ░ ░    ▒   ▒▒ ░░ ░ ▒  ░  ░     ░ ░  ░  ░▒ ░ ▒░
-  ░   ░    ░   ▒     ░ ░   ░         ░     ░░   ░
-    ░          ░  ░    ░  ░
-                                                  Walter Schulze
-                                                  awalterschulze @ gmail
-            </pre>
-            <div class="visible-xs">
-            <h2>Walter Schulze</h2>
-            awalterschulze @ gmail
-            </div>
-      </div>
-    </div>
-    <div class="row pull-right">
-      <div class="col-md-12">
-        <a href="https://twitter.com/awalterschulze">
-          <img src="./twitter.png" height="20"/>
-        </a>
-        <a href="https://www.linkedin.com/in/awalterschulze/">
-          <img src="./linkedin.png" height="20"/>
-        </a>
-        <a href="https://github.com/awalterschulze">
-          <img src="./GitHub-Mark.png" height="20"/>
-        </a>
-        <a href="https://www.youtube.com/c/awalterschulze">
-          <img src="./youtube.png" height="20"/>
-        </a>
-	<a href="https://soundcloud.com/awalterschulze">
-          <img src="./soundcloud.png" height="20"/>
-        </a>
-        <a href="https://www.tiktok.com/@awalterschulze">
-          <img src="./tiktok.png" height="20"/>
-        </a>
-        <a href="https://www.instagram.com/awalterschulze">
-          <img src="./instagram.png" height="20"/>
-        </a>
-        <a href="https://www.facebook.com/awalterschulze">
-          <img src="./facebook.png" height="20"/>
-        </a>
-      </div>
-    </div>
-    <div class="row" style="margin-bottom:10px;">
-      <div class="col-md-12">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <div class="panel panel-default">
-          <div class="panel-body">
-            <div class="row">
-              <div class="col-md-2">
-                <img src="https://avatars1.githubusercontent.com/u/1829933?v=3&s=460" width="150"/>
-              </div>
-              <div class="col-md-10">
-                <p>
-                  At home I am learning Coq, where I attempt a Phd as a hobby.
-                  I have created a validation language using Brzozowski Derivatives to validate millions of deeply nested structures per second.
-                  My current studies focuses on formalizing and extending this language.
-                </p>
-                <p>I am originally from South Africa, but in 2016 I moved to Amsterdam, The Netherlands and since 2018 I live in London, UK.</p>
-                <p>My full CV is available <a href="https://github.com/awalterschulze/waltercv">here</a>.
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <h2>Learning</h2>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <div class="panel panel-default">
-          <div class="panel-body">
-            <div class="row">
-              <div class="col-md-2">
-                  <a href="https://abstrusegoose.com/120"><img class="white" src="./how_stuff_works.png" width="150" title="my favourite comic"></img></a>
-              </div>
-              <div class="col-md-10">
-                <p>
-                  I maintain a <a href="https://github.com/awalterschulze/learning">list of videos, playlists, blog posts, papers, books, etc.</a>
-      that I have learned from and still intend to learn from.
-                  Mostly about programming languages and math.
-                </p>
-                <p>
-                  I am currently busy learning about Dependent Types in <a href="https://www.meetup.com/London-TyDD/">a reading group</a>.
-                  We finished reading <a href="http://thelittletyper.com">The Little Typer</a> and
-                  <a href="https://github.com/awalterschulze/the-little-typer-exercises">completed some exercises</a>.
-                  Now we are moving on to learning how to prove program correctness using Coq.
-                  We completed <a href="https://github.com/awalterschulze/coq_in_a_hurry_exercises">Coq in a Hurry with exercises</a>,
-                  we started to <a href="https://github.com/awalterschulze/regex-reexamined-coq">prove things about regular expressions</a>
-                  and now we are reading <a href="https://www.labri.fr/perso/casteran/CoqArt/">CoqArt</a>.
-                </p>
-                <p>
-                  Before, I was busy learning Category Theory in <a href="https://www.meetup.com/fp-ams/events/243484615/">a reading group</a>,
-                  where we were reading <a href="https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/">Category Theory for Programmers by Bartosz Milewski</a>.
-                  I also attempted to <a href="https://github.com/awalterschulze/category-theory-for-programmers-challenges">answer the challenges</a> for each chapter.
-                </p>
-                <p>
-                  in 2017, I also learned about unification by implementing a version of <a href="https://github.com/awalterschulze/gominikanren">minikanren in Go</a>.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <h2>Talks</h2>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <div class="panel panel-default">
-          <div class="panel-body">
-            <div class="row">
-              <div class="col-md-2">
-                <img class="white" src="./smiley.png" width="150"/>
-              </div>
-              <div class="col-md-10">
-		<p>
-		  <a href="https://www.youtube.com/watch?v=-NHWF4ntc1I&list=PLYwF9EIrl42T3ml_ANaNifOuTQtLxaZgQ">Correct Code by Construction with Paul Cadman</a>.
-		  Conference talk at Devoxx UK 2022.  Introductory talk to Coq.
-		</p>
-		<p>
-		  <a href="https://www.youtube.com/watch?v=qFYByoGFIUE&list=PLYwF9EIrl42T3ml_ANaNifOuTQtLxaZgQ">goderive: Code Generation with Gonads</a>.
-		  A code generation for Golang that is inspired by functional programming, including monads.
-		</p>
-                <p>
-                  <a href="https://github.com/awalterschulze/ragax">A Talk on Ragalur Expressions.</a>
-                  Explains Brzozowski Derivatives and how we can use them toghether with other functional concepts
-                  such as laziness, memoization and least fixed points to generate Ragas (classical indian music).
-                  This is finally demostrated using a Max MSP plugin in Ableton Live.
-                </p>
-                <p>
-                  <a href="https://awalterschulze.github.io/picolang/">picolang</a>
-                  A functional programming language for working with pico services.
-                </p>
-                <p>
-                  <a href="https://slides.com/awalterschulze/ebay-elm">Elm - Frontends for Backend Developers</a>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <h2>PhD as a Hobby</h2>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <div class="panel panel-default">
-          <div class="panel-body">
-            <div class="row">
-              <div class="col-md-2">
-                <img src="https://avatars1.githubusercontent.com/u/9207606?v=3&s=200" width="150"/>
-              </div>
-              <div class="col-md-10">
-                <p>
-                  <a href="https://katydid.github.io">Katydid</a> is an encoding agnostic validation langauge.
-                </p>
-                <p>
-                  The language includes a <a href="https://katydid.github.io/play">playground</a> and a <a href="https://katydid.github.io/tour">tour</a>.
-                </p>
-                <p>
-                  This language has been implemented as a library in <a href="https://github.com/katydid/katydid-haskell">Haskell</a> and <a href="https://github.com/katydid/katydid">Go</a>.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <h2>Open Source</h2>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <div class="panel panel-default">
-          <div class="panel-body">
-            <div class="row">
-              <div class="col-md-2">
-                <img src="https://avatars0.githubusercontent.com/u/9958490?v=3&s=200" width="150"/>
-              </div>
-              <div class="col-md-10">
-              <p>
-                <a href="https://github.com/gogo/protobuf">GoGoProtobuf</a>: Protocol Buffers for Go with Gadgets.
-              </p>
-              <p>
-                A fork of Google's protocol buffer generator and library for Go.
-                GoGoProtobuf is faster and more user friendly.
-                I created and maintained this project until August of 2018, when I handed it over to some amazing new maintainers.
-                During my time, it had received over 1700 stars and was used by Docker, Dropbox, Kubernetes, etcd, to name but a few.
-              </p>
-              <p>
-                <a href="https://github.com/awalterschulze/goderive">GoDerive</a> derives and generates golang functions from input types.
-                These include monadic and concurrent functions.  It has received over 800 stars,
-                because it <a href="./trendingongithub.png">trended on github</a>,
-                was published in the <a href="https://golangweekly.com/issues/174">golangweekly</a> newsletter and
-                <a href="https://www.reddit.com/r/programmingcirclejerk/comments/6vkkdw/this_is_what_goprogrammers_have_to_do_because/">redit also found it funny</a>.
-              </p>
-              <p>
-                <a href="https://github.com/awalterschulze/gographviz">GoGraphviz</a>: Go Parser for Graphviz's Dot Format.
-              </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <h2>Blog</h2>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <div class="panel panel-default">
-          <div class="panel-body">
-            <div class="row">
-              <div class="col-md-2">
-                <img class="white" src="https://awalterschulze.github.io/blog/avatar.jpg" width="150"/>
-              </div>
-              <div class="col-md-10">
-                <p>
-                  <a href="https://awalterschulze.github.io/blog/post/neglecting-math-at-university/">A Programmer’s Regret: Neglecting Math at University</a>.
-                  This post received over <a href="https://news.ycombinator.com/item?id=20563663">200 points on Hacker News</a>, with a <a href="./rank12.png">top rank of 12</a>.
-                  It also received over <a href="https://www.reddit.com/r/learnprogramming/comments/cjg8th/a_programmers_regret_neglecting_math_at_university/">1300 points on r/learnprogramming</a>.
-                  This resulted in over <a href="./10000visitors.png">10000 visitors</a> in one week.
-                </p>
-                <p>
-                  <a href="https://awalterschulze.github.io/blog/post/monads-for-goprogrammers/">Monads for Go Programmers</a>.
-                  It received a <a href="https://www.reddit.com/r/haskell/duplicates/73afpz/monads_for_go_programmers/">100 points</a> on Reddit,
-                  which included it being at the <a href="./topofrhaskell.png">top* of r/haskell for a while</a> and
-                  it was also featured in the <a href="https://golangweekly.com/issues/179">golangweekly</a> newsletter.
-                </p>
-                <p>
-                  <a href="https://awalterschulze.github.io/blog/post/sum-types-over-multiple-returns/">For Sum Types: Golang's multiple return parameters are overrated</a>.
-                  A go experience report about how I wish go chose sum types over multiple return parameters for handling errors.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <h2>Music Generation</h2>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <div class="panel panel-default">
-          <div class="panel-body">
-            <div class="row">
-              <div class="col-md-2">
-                <img class="white" src="./note.png" width="150"/>
-              </div>
-              <div class="col-md-10">
-                <p>
-                Artists have many influences which they have accumulated over the years by listening to countless pieces of music,
-                this principle is reflected in <a href="http://superwillow.sourceforge.net/">SuperWillow</a>.
-                The computer analyses (listens to) many pieces of music and composes music by sampling from the analysis.
-                </p>
-                <p>
-                  <a href="https://doi.ieeecomputersociety.org/10.1109/MMUL.2010.44">Article in IEEE Multimedia</a>
-                  - Music Generation with Mixed and Higher Order Markov Models
-                  - <a href="https://scholar.google.nl/scholar?cites=3076765566322818278&as_sdt=2005&sciodt=0,5&hl=en">Cited by 34</a>
-                </p>
-                <p>
-                  <audio src="./demo_003.mp3" preload="auto"></audio>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <h2>Music</h2>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <div class="panel panel-default">
-          <div class="panel-body">
-            <div class="row">
-              <div class="col-md-2">
-                <a href="https://awalterschulze.github.io/music/"><img src="https://avatars3.githubusercontent.com/u/8301615?v=3&s=460" width="150"/></a>
-              </div>
-              <div class="col-md-10">
-              <p>
-              I make "music" using an electric guitar, a computer and friends:
-              </p>
-              <p>
-                <script type="text/javascript">
-                  var filename = "Zero or One I'm Bad at Counting - Experiments - 09 - Nine Nine Nine.mp3";
-                  var path = "https://awalterschulze.github.io/music/music/" + filename;
-                  document.write('<audio src="' + path + '" preload="auto"></audio>');
-                </script>
-              </p>
-              <p>
-                <script type="text/javascript">
-                  var filename = "Frail Care Unit - 01 - Chloroform Dreamer.mp3";
-                  var path = "https://awalterschulze.github.io/music/music/" + filename;
-                  document.write('<audio src="' + path + '" preload="auto"></audio>');
-                </script>
-              </p>
-              <p><a href="https://awalterschulze.github.io/music/">more...</a></p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    </div>
-	</body>
+    <article class="markdown-body">
+
+<h1 align="center">Walter Schulze</h1>
+<p align="center" style="color:grey;">awalterschulze @ gmail</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/awalterschulze">
+    <img alt="LinkedIn" title="awalterschulze's LinkedIn" height="48" width="48" src="./linkedin.svg"/>
+  </a>
+  <a href="https://www.youtube.com/c/awalterschulze">
+    <img alt="YouTube" title="awalterschulze's YouTube Channel" height="48" width="48" src="./youtube.svg"/>
+  </a>
+  <a href="https://soundcloud.com/awalterschulze">
+    <img alt="Soundcloud" title="awalterschulze's Soundcloud" height="48" width="48" src="./soundcloud.svg"/>
+  </a>
+  <a href="https://medium.com/@awalterschulze">
+    <img alt="Medium" title="awalterschulze's Blog" height="48" width="48" src="./medium.svg"/>
+  </a>
+  <a href="https://twitter.com/awalterschulze">
+    <img alt="Twitter" title="awalterschulze's Twitter" height="48" width="48" src="./twitter.svg"/>
+  </a>
+  <a href="https://github.com/awalterschulze">
+    <img alt="Github" title="awalterschulze's Github" height="48" width="48" src="./github.svg"/>
+  </a>
+  <a href="https://slides.com/awalterschulze">
+    <img alt="Slides" title="awalterschulze's Slides" height="48" width="48" src="./slides.svg"/>
+  </a>
+  <a href="https://sessionize.com/awalterschulze">
+    <img alt="Sessionize" title="awalterschulze's Sessionize" height="48" width="48" src="./sessionize.png"/>
+  </a>
+  <a href="https://www.tiktok.com/@awalterschulze">
+    <img alt="TikTok" title="awalterschulze's TikTok" height="48" width="48" src="tiktok.svg"/>
+  </a>
+  <a href="https://www.instagram.com/awalterschulze">
+    <img alt="Instagram" title="awalterschulze's Instagram" height="48" width="48" src="instagram.svg"/>
+  </a>
+  <a href="https://www.facebook.com/awalterschulze">
+    <img alt="Facebook" title="awalterschulze's Facebook" height="48" width="48" src="facebook.svg"/>
+  </a>
+  <a href="https://raw.githubusercontent.com/awalterschulze/waltercv/master/waltercv.pdf">
+    <img alt="CV" title="Walter Schulze's CV" height="48" width="48" src="./pdf.svg"/>
+  </a>
+</p>
+
+<h1 align="center">Projects</h1>
+
+<h2 align="center">Katydid: validation language for serialized data</h2>
+
+<p align="center">
+  <a href="https://katydid.github.io/"><img src="katydid_floor.svg" width="120" height"120" title="Katydid" alt="Katydid"/></a>
+  <a href="https://github.com/katydid/katydid"><img src="go.svg" width="48" height"48" title="Katydid implementation in Go" alt="Katydid Go"/></a>
+  <a href="https://github.com/katydid/katydid-haskell"><img src="haskell.svg" width="48" height"48" title="Katydid implementation in Haskell" alt="Katydid Haskell"/></a>
+  <a href="https://github.com/katydid/proofs"><img src="coq.svg" width="48" height"48" title="Katydid proofs in Coq" alt="Katydid proofs in Coq"/></a>
+</p>
+
+<h2 align="center">gogoprotobuf, erlfmt, goderive, gographviz, music generation</h2>
+
+<p align="center">
+  <a href="https://github.com/gogo/protobuf"><img src="gogo.png" width="96" height="96" title="gogoprotobuf" alt="gogoprotobuf"/></a>
+  <a href="https://github.com/WhatsApp/erlfmt"><img src="erlang.svg" width="96" height="96" title="erlfmt" alt="erlfmt"/></a>
+  <a href="https://github.com/awalterschulze/goderive"><img src="goderive.jpg" width="96" height="96" title="goderive" alt="goderive"/></a>
+  <a href="https://github.com/awalterschulze/gographviz"><img src="graphviz.png" width="96" height="96" title="gographviz" alt="gographviz"/></a>
+  <a href="http://superwillow.sourceforge.net/"><img src="smiley.png" height="96" title="SuperWillow" alt="SuperWillow"/></a>
+  <a href="https://doi.ieeecomputersociety.org/10.1109/MMUL.2010.44"><img alt="Article in IEEE Multimedia - Music Generation with Mixed and Higher Order Markov Models" title="Article in IEEE Multimedia - Music Generation with Mixed and Higher Order Markov Models" height="24" width="24" src="./pdf.svg"/></a>
+</p>
+
+<h1 align="center">Music</h1>
+
+<h2 align="center">PostPost</h2>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/eduard-burger-791b6396/"><img src="./postpost.jpeg" height="96" width="96" title="Eduard Burger and I wrote and recorded each song in about 5 hours. Post Rock is an instrumental style of music, examples of bands include: God is an Astronaut and Maybe She Will. Whenever you hear any shredding, this is Eduard Burger." alt="Post Post Band Album Cover"/></a>
+  <a href="https://open.spotify.com/album/5u3vkVqWhmBLCzD8v9VxaR"><img alt="PostPost Band Spotify" title="PostPost Band Spotify" height="48" width="48" src="./spotify.svg"/></a>
+  <a href="https://music.youtube.com/channel/UCOOISdMn8gghd6XEx5OE4Mg"><img alt="PostPost Band YouTube Music" title="PostPost Band YouTube Music" height="48" width="48" src="./youtube-music.svg"/></a>
+  <a href="https://music.apple.com/gb/album/nostalgia-ep/1112118492?app=music"><img alt="PostPost Band Apple Music" title="PostPost Band Apple Music" height="48" width="48" src="./apple.svg"/></a>
+  <a href="https://music.amazon.co.uk/albums/B01FDZF8I0"><img alt="PostPost Amazon Music" title="PostPost Amazon Music" height="48" width="48" src="./amazon-music.svg"/></a>
+  <a href="https://listen.tidal.com/album/60289755"><img alt="PostPost Band Tidal" title="PostPost Band Tidal" height="48" width="48" src="./tidal.svg"/></a>
+  <a href="https://www.youtube.com/channel/UCOOISdMn8gghd6XEx5OE4Mg"><img alt="PostPost Band YouTube Channel" title="PostPost Band YouTube Channel" height="48" width="48" src="./youtube.svg"/></a>
+  <a href="https://www.deezer.com/en/album/13066374"><img alt="PostPost Band Deezer" title="PostPost Band Deezer" height="48" width="48" src="./deezer.svg"/></a>
+</p>
+
+<h2 align="center">om te neurie</h2>
+
+<p align="center">
+  <a href="https://mnrmuller.wordpress.com/"><img src="./omteneurie.jpg" height="96" width="96" title="Andre Muller reads poems and short stories in Afrikaans, Dutch and Xhosa, most of which are written by him. We typically record and I add music in about 5 hours." alt="om te neurie album cover"/></a>
+  <a href="https://open.spotify.com/artist/5lfMKFEALBYeLxx5C20dXR"><img alt="om te neurie Spotify" title="om te neurie Spotify" height="48" width="48" src="./spotify.svg"/></a>
+  <a href="https://music.youtube.com/browse/UCGjc97ZCKQJpSIUSpLuW1nQ"><img alt="om te neurie YouTube Music" title="om te neurie YouTube Music" height="48" width="48" src="./youtube-music.svg"/></a>
+  <a href="https://music.apple.com/gb/artist/om-te-neurie/1537747893?app=music"><img alt="om te neurie Apple Music" title="om te neurie Apple Music" height="48" width="48" src="./apple.svg"/></a>
+  <a href="https://music.amazon.co.uk/albums/B08M4CTWPT"><img alt="PostPost Amazon Music" title="PostPost Amazon Music" height="48" width="48" src="./amazon-music.svg"/></a>
+  <a href="https://listen.tidal.com/artist/21922624"><img alt="om te neurie Tidal" title="om te neurie Tidal" height="48" width="48" src="./tidal.svg"/></a>
+  <a href="https://www.youtube.com/channel/UCGjc97ZCKQJpSIUSpLuW1nQ"><img alt="om te neurie YouTube Channel" title="om te neurie YouTube Channel" height="48" width="48" src="./youtube.svg"/></a>
+  <a href="https://www.deezer.com/en/artist/111699022"><img alt="om te neurie Deezer" title="om te neurie Deezer" height="48" width="48" src="./deezer.svg"/></a>
+</p>
+
+<h2 align="center">Few and Far Between</h2>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/anton-hendriks-1b549514/"><img src="./fewandfarbetween.png" height="96" width="96" title="Anton Hendriks writes the lyrics, sings the songs and plays the bass, while I play guitar and produce. We have also had several other temporary members, since 2007." alt="Few and Far Between album cover"/></a>
+  <a href="https://open.spotify.com/album/4Ko2dxoX67P36aUU9P3m1a"><img alt="Few and Far Between Spotify" title="Few and Far Between Spotify" height="48" width="48" src="./spotify.svg"/></a>
+  <a href="https://music.youtube.com/playlist?list=OLAK5uy_mAFANcwooYaZw-i5LoHx6197UxyLsTOgI"><img alt="Few and Far Between YouTube Music" title="Few and Far Between YouTube Music" height="48" width="48" src="./youtube-music.svg"/></a>
+  <a href="https://music.apple.com/us/album/few-and-far-between-ep/1069493176"><img alt="Few and Far Between Apple Music" title="Few and Far Between Apple Music" height="48" width="48" src="./apple.svg"/></a>
+  <a href="https://music.amazon.co.uk/albums/B01B1H3VX8"><img alt="PostPost Amazon Music" title="PostPost Amazon Music" height="48" width="48" src="./amazon-music.svg"/></a>
+  <a href="https://listen.tidal.com/album/55455479"><img alt="Few and Far Between Tidal" title="Few and Far Between Tidal" height="48" width="48" src="./tidal.svg"/></a>
+  <a href="https://www.youtube.com/watch?v=x9ujWKmwLAI&list=OLAK5uy_mYEHainVtZwa810Tgw8mXx-Flv9lHx_rE"><img alt="Few and Far Between YouTube Channel" title="Few and Far Between YouTube Channel" height="48" width="48" src="./youtube.svg"/></a>
+  <a href="https://www.deezer.com/en/album/12012776"><img alt="Few and Far Between Deezer" title="Few and Far Between Deezer" height="48" width="48" src="./deezer.svg"/></a>
+</p>
+
+<h1 align="center">Learnings</h1>
+
+<p align="center">
+  <a href="https://github.com/awalterschulze/the-little-typer-exercises"><img src="the_little_typer.jpeg" width="96" height="120" title="The Little Typer Exercises" alt="The Little Typer Exercises"/></a>
+  <a href="https://github.com/awalterschulze/coq_in_a_hurry_exercises"><img src="coq_in_a_hurry.png" width="96" height="120" title="Coq in a Hurry Exercises" alt="Coq in a Hurry Exercises"/></a>
+  <a href="https://github.com/awalterschulze/regex-reexamined-coq/"><img src="coq_art.jpeg" height="120" width="96" title="Coq Proofs about Regular Expressions as a learning exercise" alt="Coq Proofs about Regular Expressions as a learning exercise"/></a>
+  <a href="https://github.com/awalterschulze/category-theory-for-programmers-challenges"><img src="category_theory_for_programmers.jpg" width="96" height="120" title="Category Theory for Programmers Exercises" alt="Category Theory for Programmers Exercises"/></a>
+  <a href="https://github.com/awalterschulze/gominikanren"><img src="the_reasoned_schemer.jpg" height="120" width="96" title="The Reasoned Schemer's minikanren in Go" alt="The Reasoned Schemer's minikanren in Go"/></a>
+  <a href="https://github.com/awalterschulze/learning">more...</a>
+</p>
+
+    </article>
+  </body>
 </html>
