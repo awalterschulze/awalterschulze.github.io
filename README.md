@@ -1,3 +1,3 @@
 # awalterschulze's home page
 
-[awalterschulze.github.io](https://awalterschulze.github.io/)
+[awalterschulze.org](http://awalterschulze.org)
